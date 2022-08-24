@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  padding: 50px 0;
+  background-image: url("images/bg1.png");
+  background-repeat: no-repeat;
+  background-position: 560px 215px;
+  background-size: 700px;
+}
+
+.header-left {
+  width: 50%;
+  float: left;
+}
+
+.header-left h1 {
+  margin-top: 50px;
+  font-size: 65px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #121212;
+}
+
+.header-left p {
+  margin: 30px 0;
+  color: #707070;
+  font-size: 18px;
+  line-height: 25px;
+}
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn {
+  padding: 10px 12px;
+  background: #ff5959;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  background: #ff9090;
+}
+
+.links .videoLink {
+  color: #707070;
+}
+
+.links .videoLink:hover {
+  color: #ff5959;
+}
+
+.header-right {
+  width: 50%;
+  overflow: hidden;
+}
+
+.header-right img {
+  height: auto;
+  width: 450px;
+}
+
+.donateArea {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.donateArea h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #121212;
+}
+
+.donateArea p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.donateArea ul {
+  list-style: none;
+  margin: 50px 0;
+}
+
+.donateArea li {
+  display: inline;
+  padding: 10px 20px;
+  background: #ffeeee;
+  color: #707070;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 2px;
+  border: 2px solid transparent;
+}
+
+.donateArea li:hover {
+  background: #ffeeee;
+  color: #707070;
+  border-radius: 5px;
+  border: 2px solid #ff5959;
+}
+
+.customAmount {
+  color: #b3b3b3;
+  padding: 10px 5px;
+  border: none;
+  font-weight: 600;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.donateArea a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.donatePlan {
+  text-align: center;
+}
+
+.donatePlan h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #121212;
+}
+
+.donatePlan p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.plans {
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.singlePlan {
+  width: 28%;
+  text-align: left;
+  background: #ccc;
+  padding: 30px 20px;
+  float: left;
+  border-radius: 5px;
+  color: #121212;
+}
+.singlePlan img {
+  width: 40px;
+  height: auto;
+}
+
+.singlePlan h3 {
+  margin: 20px 0;
+}
+
+.second {
+  margin: 0 25px;
+  background: #ff5959;
+}
+
+.help {
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.help-left {
+  width: 50%;
+  float: left;
+}
+
+.help-left h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #121212;
+}
+
+.help-left p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 25px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.help-left a {
+  text-decoration: none;
+}
+
+.help-right {
+  width: 50%;
+  overflow: hidden;
+}
+
+.stopOverFlow {
+  overflow: visible;
+}
+.subs {
+  margin: 50px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.subs h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #121212;
+}
+
+.subs p {
+  color: #707070;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.form-area {
+  background: #fff4d6;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+.form-area input {
+  background: #aa9f9f;
+  border: none;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 5px 0 0 5px;
+}
+input[type="email"]:focus {
+  outline: none;
+}
+
+.form-area button {
+  padding: 10px 10px;
+  border: none;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
+  background: #ff5959;
+  margin-left: -6px;
+  cursor: pointer;
+  color: #fff;
+}
+
+footer {
+  background: #0b0d17;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer h3 {
+  padding: 10px 0;
+  font-family: "Lobster";
+  font-size: 25px;
+  color: #ff5959;
+}
